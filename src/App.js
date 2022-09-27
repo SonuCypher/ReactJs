@@ -1,13 +1,32 @@
-import logo from './logo.svg';
+// import React, { Component } from 'react'
+// import logo from './logo.svg';
 import './App.css';
+import Name from './components/name'
+import Work from './components/Work'
+import Counter from './components/Counter';
+ //const { Name } = require('./components/name')
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+
+    
+    <Counter />
+    
+    
+    {/* <Name name="Abdul Suhaib"/>
+    <Name name="Sonu"/>
+    <Work role="A Developer" /> */}
+
+
+
+
+
+    
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Hello This is My First REACT
+          Hello Thi
         </p>
         <a
           className="App-link"
@@ -17,7 +36,7 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
     </div>
   );
 }
