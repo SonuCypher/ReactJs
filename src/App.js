@@ -4,6 +4,7 @@ import './App.css';
 import Name from './components/name'
 import Work from './components/Work'
 import Counter from './components/Counter';
+import ParentComponent from './components/ParentComponent';
  //const { Name } = require('./components/name')
 
 function App() {
@@ -11,9 +12,8 @@ function App() {
     <div className="App">
 
     
-    <Counter />
-    
-    
+    <ParentComponent/>
+    {/* <Counter /> */}
     {/* <Name name="Abdul Suhaib"/>
     <Name name="Sonu"/>
     <Work role="A Developer" /> */}
