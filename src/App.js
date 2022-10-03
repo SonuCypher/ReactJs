@@ -5,14 +5,21 @@ import Name from './components/name'
 import Work from './components/Work'
 import Counter from './components/Counter';
 import ParentComponent from './components/ParentComponent';
- //const { Name } = require('./components/name')
+import StyleSheet from './components/Stylesheet';
+import Inline from './components/Inline';
+import styles from './components/appStyles.module.css' 
+import Form from './components/Form'
+//const { Name } = require('./components/name')
 
 function App() {
   return (
     <div className="App">
 
-    
-    <ParentComponent/>
+      <Form />
+      {/* <h1 className={styles.success}>Css using  Module</h1> */}
+      {/* <Inline /> */}
+    {/* <StyleSheet Primary={true}></StyleSheet> */}
+    {/* <ParentComponent/> */}
     {/* <Counter /> */}
     {/* <Name name="Abdul Suhaib"/>
     <Name name="Sonu"/>
