@@ -1,21 +1,22 @@
 // import React, { Component } from 'react'
 // import logo from './logo.svg';
 import './App.css';
-import Name from './components/name'
+import LifecycleA from './components/LifecycleA';
+/*import Name from './components/name'
 import Work from './components/Work'
 import Counter from './components/Counter';
 import ParentComponent from './components/ParentComponent';
 import StyleSheet from './components/Stylesheet';
 import Inline from './components/Inline';
 import styles from './components/appStyles.module.css' 
-import Form from './components/Form'
+import Form from './components/Form'*/
 //const { Name } = require('./components/name')
 
 function App() {
   return (
     <div className="App">
-
-      <Form />
+      <LifecycleA />
+      {/* <Form /> */}
       {/* <h1 className={styles.success}>Css using  Module</h1> */}
       {/* <Inline /> */}
     {/* <StyleSheet Primary={true}></StyleSheet> */}
