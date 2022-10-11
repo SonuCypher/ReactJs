@@ -15,7 +15,7 @@ import Form from './components/Form'*/
 function App() {
   return (
     <div className="App">
-      <LifecycleA />
+      {/* <LifecycleA /> */}
       {/* <Form /> */}
       {/* <h1 className={styles.success}>Css using  Module</h1> */}
       {/* <Inline /> */}
