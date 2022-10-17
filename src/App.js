@@ -2,6 +2,8 @@
 // import logo from './logo.svg';
 import './App.css';
 import LifecycleA from './components/LifecycleA';
+import ComponentC from './components/ComponentC';
+import { UserProvider } from './components/userContext';
 /*import Name from './components/name'
 import Work from './components/Work'
 import Counter from './components/Counter';
@@ -15,6 +17,10 @@ import Form from './components/Form'*/
 function App() {
   return (
     <div className="App">
+     <UserProvider value="sonu">
+     <ComponentC />
+     </UserProvider>
+
       {/* <LifecycleA /> */}
       {/* <Form /> */}
       {/* <h1 className={styles.success}>Css using  Module</h1> */}
